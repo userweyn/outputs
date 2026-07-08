@@ -128,7 +128,7 @@
         gap:40px;
     }
     .hero-project-card{
-       display:none;
+       display:none; !important;
     }
     .hero-media img, .hero-media video{
        opacity: .5;
