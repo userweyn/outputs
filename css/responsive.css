@@ -129,15 +129,10 @@
     }
     .hero-project-card{
        display:none;
-        position:relative;
-        right:auto;
-        bottom:auto;
-        width:100%;
-        max-width:none;
-        margin-top:20px;
     }
     .hero-media img, .hero-media video{
-        opacity: .5;
+       opacity: .5;
+       object-fit:contain;
     }
     .hero-content{
         width:100%;
