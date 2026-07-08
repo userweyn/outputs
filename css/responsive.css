@@ -103,7 +103,7 @@
 /* ===========================
    MOBILE
 =========================== */
-@media (max-width:480px){
+@media (max-width:520px){
     .logo{
         font-size:1.35rem;
     }
