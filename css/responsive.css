@@ -113,11 +113,33 @@
     section{
         padding:56px 0;
     }
+    .nav-links{
+        display:none;
+    }
     .hero{
+        min-height:100svh;
         padding-top:90px;
+        padding-bottom:60px;
+    }
+    .hero-container{
         min-height:auto;
+        flex-direction:column;
+        justify-content:center;
+        gap:40px;
+    }
+    .hero-project-card{
+        position:relative;
+        right:auto;
+        bottom:auto;
+        width:100%;
+        max-width:none;
+        margin-top:20px;
+    }
+    .hero-media img, .hero-media video{
+        opacity: .5;
     }
     .hero-content{
+        width:100%;
         text-align:center;
     }
     .hero-content h1{
@@ -135,12 +157,11 @@
     }
     .hero-btn{
         flex-direction:column;
-        gap:12px;
+        width:100%;
     }
     .hero-btn a{
         width:100%;
-        padding:14px 20px;
-        font-size:.9rem;
+        justify-content:center;
     }
     .skills-container{
         grid-template-columns:1fr;
@@ -166,6 +187,12 @@
     .section-label{
         font-size: 0.7rem;
     }
+    .featured-wrapper{
+        margin-inline:-5%;
+    }
+    .featured-strip{
+        padding-inline:5%;
+    }
     .featured-slide{
         flex:0 0 100%;
     }
@@ -176,6 +203,9 @@
         grid-template-columns:repeat(2,1fr);
         gap:12px;
         max-height:none;
+    }
+    .gallery-item{
+        border-radius:14px;
     }
     .project-content{
         padding:18px;
@@ -195,6 +225,9 @@
     .resume-actions{
         flex-direction:column;
         align-items:center;
+    }
+    .profile-image{
+        width:170px;
     }
     .footer-top{
         padding:48px 0;
@@ -218,23 +251,13 @@
     }
 }
 @media (max-width:992px){
-
     .resume-container{
-
         grid-template-columns:1fr;
-
     }
-
     .resume-profile{
-
         order:-1;
-
     }
-
     .resume-frame{
-
         height:600px;
-
     }
-
 }
