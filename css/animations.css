@@ -1,0 +1,171 @@
+/* ===========================
+   FADE UP
+=========================== */
+@keyframes fadeUp{
+    from{
+        opacity:0;
+        transform:translateY(40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* ===========================
+   FADE DOWN
+=========================== */
+@keyframes fadeDown{
+    from{
+        opacity:0;
+        transform:translateY(-40px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+/* ===========================
+   FADE IN
+=========================== */
+@keyframes fadeIn{
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+}
+
+/* ===========================
+   SCALE IN
+=========================== */
+@keyframes scaleIn{
+    from{
+        opacity:0;
+        transform:scale(.92);
+    }
+    to{
+        opacity:1;
+        transform:scale(1);
+    }
+}
+
+/* ===========================
+   FLOAT
+=========================== */
+@keyframes floating{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-12px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
+.resume-profile{
+    animation:floating 5s ease-in-out infinite;
+}
+/* ===========================
+   HERO
+=========================== */
+.hero-content{
+    animation:fadeUp .9s ease both;
+}
+/* ===========================
+   SKILL CARDS
+=========================== */
+.skill-card{
+    animation:fadeUp .8s ease both;
+}
+.skill-card:nth-child(2){
+    animation-delay:.1s;
+}
+.skill-card:nth-child(3){
+    animation-delay:.2s;
+}
+.skill-card:nth-child(4){
+    animation-delay:.3s;
+}
+
+/* ===========================
+   SECTION TITLES
+=========================== */
+.section-title{
+    animation:fadeUp .8s ease both;
+}
+
+/* ===========================
+   PROJECT CARD
+=========================== */
+/* .project-card{
+    animation:fadeUp .8s ease both;
+} */
+.project-card:nth-child(2){
+    animation-delay:.08s;
+}
+.project-card:nth-child(3){
+    animation-delay:.16s;
+}
+
+/* ===========================
+   GALLERY ITEMS
+=========================== */
+.gallery-item{
+    animation:scaleIn .55s ease both;
+}
+
+/* ===========================
+   MODALS
+=========================== */
+.modal.active .modal-content{
+    animation:scaleIn .28s ease;
+}
+
+/* ===========================
+   BUTTONS
+=========================== */
+.view-btn,
+.details-btn,
+.project-links a,
+.footer-socials a{
+    transition:
+        transform .3s ease,
+        background .3s ease,
+        color .3s ease,
+        box-shadow .3s ease;
+}
+
+/* ===========================
+   SCROLL REVEAL
+=========================== */
+.reveal{
+    opacity:0;
+    transform:translateY(50px);
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+}
+.reveal.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+@keyframes heroZoom{
+
+    from{
+
+        transform:scale(1.08);
+
+    }
+
+    to{
+
+        transform:scale(1);
+
+    }
+
+}
