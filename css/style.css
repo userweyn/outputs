@@ -356,10 +356,9 @@ header{
     color:#fff;
 }
 .hero-btn .view-btn:hover{
-    transform:translateY(-4px);
+    background-color: #e83f23;
+    transform: scale(1.1);
 }
-.view-btn:hover{
-   backgroun-color: #e83f23;
 .hero-btn .details-btn{
     border:2px solid rgba(255,255,255,.2);
     text-decoration: underline;
