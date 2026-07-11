@@ -27,6 +27,7 @@ function updateHero(){
         if(project.action.type==="video"){
             media.innerHTML=`
                 <video
+                    preload="metadata"
                     autoplay
                     muted
                     loop
@@ -128,7 +129,7 @@ function startHeroRotation(){
             currentSlide = 0;
         }
         updateHero();
-    },7000);
+    },12000);
 }
 function initFeaturedScroll() {
     const strip = document.getElementById("featuredContainer");
