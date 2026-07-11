@@ -876,7 +876,7 @@ const projects = [
         shortDescription:"",
         action:{
             type:"image",
-            source:"cover.jpg"
+            source:"cover.png"
         },
         details:{
             role:"",
