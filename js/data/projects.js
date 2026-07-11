@@ -577,7 +577,7 @@ const projects = [
         priority: 21,
         type: ["Internship","Static Pubmat"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"",
+        shortDescription:"A collaborative project with FEU Tech's Communication Office.",
         action:{
             type:"image",
             source:"cover.jpg"
@@ -876,7 +876,7 @@ const projects = [
         shortDescription:"",
         action:{
             type:"image",
-            source:"cover.png"
+            source:"cover.jpg"
         },
         details:{
             role:"",
