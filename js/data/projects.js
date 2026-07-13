@@ -397,7 +397,7 @@ const projects = [
             role:"",
             software:["After Effects","Photoshop"],
             objective:"Make Shit Move",
-            description:"This project was created during my internship.",
+            description:"It's just suppose to be a static pubmat, well, why not explore unfamiliar territory.",
             processImages:[],
             lessons:"Learned the very basics of key framing, and organizing shit.",
             links:[
@@ -640,7 +640,7 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            processImages:["process01.jpg"],
             lessons:"",
             links:[
                 {
