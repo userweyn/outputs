@@ -640,7 +640,7 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process01.jpg"],
+            processImages:["process1.jpg"],
             lessons:"",
             links:[
                 {
