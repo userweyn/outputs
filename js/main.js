@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", ()=>{
     updateGalleryCount();
     initProjectModal();
     initViewerModal();
-    initResumeModal();
+    // initResumeModal();
     // initFeaturedCarousel(); Featured strip is now manually scrollable.
     initScrollReveal();
 });
@@ -26,8 +26,7 @@ function viewProject(id){
             openViewer(`
                 <video
                     controls
-                    autoplay
-                    style="width:100%;border-radius:18px;">
+                    autoplay>
                     <source
                         src="assets/projects/${project.folder}/${project.action.source}"
                         type="video/mp4">
@@ -38,7 +37,7 @@ function viewProject(id){
             openViewer(`
                 <img
                     src="assets/projects/${project.folder}/${project.action.source}"
-                    style="width:100%;border-radius:18px;">
+                    class="viewer-media">
             `);
             break;
         case "external":
