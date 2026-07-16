@@ -66,12 +66,15 @@ function loadFeaturedProjects(){
         .sort((a,b) => b.priority - a.priority);
     container.innerHTML = "";
     featuredProjects.forEach((project,index)=>{
-        const card =
-            createProjectCard(project);
+        const card = createProjectCard(project);
+
+        card.style.animationDelay = `${index * 0.08}s`;
+
         card.addEventListener("click",()=>{
             currentSlide = index;
             updateHero();
         });
+
         container.appendChild(card);
     });
     updateHero();
@@ -129,7 +132,7 @@ function startHeroRotation(){
             currentSlide = 0;
         }
         updateHero();
-    },12000);
+    },7000);
 }
 function initFeaturedScroll() {
     const strip = document.getElementById("featuredContainer");
