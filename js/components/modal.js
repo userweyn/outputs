@@ -69,7 +69,7 @@ function openDetails(id){
                 <img
                     src="assets/projects/${project.folder}/${image}"
                     alt="${project.title}"
-                    onclick="openViewer('<img src=&quot;assets/projects/${project.folder}/${image}&quot; style=&quot;width:100%;border-radius:18px;&quot;>')">
+                   onclick="openViewer('<img src=&quot;assets/projects/${project.folder}/${image}&quot; class=&quot;viewer-media&quot;>')">
             `;
         });
         html += `
