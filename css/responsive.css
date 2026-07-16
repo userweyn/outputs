@@ -32,10 +32,6 @@
     .featured-slide{
         flex:0 0 calc((100% - 28px)/2);
     }
-    .footer-top .container{
-        flex-direction:column;
-        text-align:center;
-    }
 }
 
 /* ===========================
@@ -198,7 +194,7 @@
     .gallery-grid{
         grid-template-columns:repeat(2,1fr);
         gap:12px;
-        max-height:none;
+        max-height:800px;
     }
     .gallery-item{
         border-radius:14px;
@@ -224,10 +220,6 @@
     }
     .profile-image{
         width:170px;
-    }
-    footer{
-    background-color: dark;
-    color: white;   
     }
     .modal{
         padding:16px;
