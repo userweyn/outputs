@@ -14,10 +14,12 @@ function loadGallery(filter="All"){
             project.type.includes(filter)
         );
     }
-    galleryProjects.forEach(project=>{
-        container.appendChild(
-            createGalleryItem(project)
-        );
+    galleryProjects.forEach((project,index)=>{
+        const item = createGalleryItem(project);
+
+        item.style.animationDelay = `${index * 0.04}s`;
+
+        container.appendChild(item);
     });
 }
 function createGalleryItem(project){
