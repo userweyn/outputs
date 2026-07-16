@@ -285,21 +285,16 @@
 }
 
 .gallery-filters button{
-    flex:0 0 auto;
+        padding:10px 18px;
 
-    padding:10px 18px;
+        background:var(--surface);
+        color:var(--text);
 
-    background:var(--filter-bg);
+        border:1px solid var(--border);
+        border-radius:999px;
 
-    border:none;
-    border-radius:var(--radius-round);
-
-    color:var(--text-dark);
-
-    font-weight:600;
-    letter-spacing:.02em;
-
-    transition:var(--transition);
+        cursor:pointer;
+        transition:var(--transition);
 }
 
 .gallery-filters button:hover{
