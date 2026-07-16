@@ -225,19 +225,9 @@
     .profile-image{
         width:170px;
     }
-    .footer-top{
-        padding:48px 0;
-    }
-    .footer-cta p{
-        font-size:1.05rem;
-    }
-    .footer-cta .cta-emphasize{
-        font-size:1.35rem;
-    }
-    .footer-socials{
-        justify-content:center;
-        flex-wrap:wrap;
-        gap:16px;
+    footer{
+    background-color: dark;
+    color: white;   
     }
     .modal{
         padding:16px;
