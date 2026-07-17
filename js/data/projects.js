@@ -577,7 +577,7 @@ const projects = [
         priority: 21,
         type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"A collaborative project with FEU Tech's Communication Office.",
+        shortDescription:"A collaborative project with FEU Tech's Communication Office. Click the details button to view the pages I made.",
         action:{
             type:"image",
             source:"cover.jpg"
