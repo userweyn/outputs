@@ -910,7 +910,7 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            processImages:["process1.jpg","process2.jpg"],
             lessons:"",
             links:[
                 {
