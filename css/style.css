@@ -193,7 +193,7 @@ header{
     inset:0 0 auto 0;
     width:100%;
     background:var(--black-25);
-    backdrop-filter:blur(14px);
+    backdrop-filter:blur(7px);
     box-shadow:var(--shadow-sm);
     z-index:999;
 }
