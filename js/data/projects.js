@@ -9,7 +9,7 @@
 //         year: 2026,
 //         featured: trye,
 //         priority: 100,
-//         type: ["Internship","Static Pubmat", "Motion Graphics", "3D"],
+//         type: ["Static Pubmat", "Motion Graphics", "3D"],
 //         thumbnail: "thumbnail.jpg",
 //         shortDescription:"This is a short description.",
 //         action:{
@@ -35,7 +35,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 1,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -62,7 +62,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 2,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -89,7 +89,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority:3,
-        type: ["Internship","Motion Graphics"],
+        type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -116,7 +116,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 4,
-        type: ["Internship","Motion Graphics"],
+        type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -143,7 +143,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 5,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -170,7 +170,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 6,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -197,7 +197,7 @@ const projects = [
         year: 2026,
         featured: false ,
         priority: 7,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -224,7 +224,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 8,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -251,7 +251,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 9,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -278,7 +278,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 10,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -305,7 +305,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 11,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -332,7 +332,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 12,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -359,7 +359,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 13,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -386,7 +386,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 14,
-        type: ["Internship","Motion Graphics"],
+        type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"I am introduced to After Effects with this Project.",
         action:{
@@ -397,7 +397,7 @@ const projects = [
             role:"",
             software:["After Effects","Photoshop"],
             objective:"Make Shit Move",
-            description:"It's just suppose to be a static pubmat, well, why not explore unfamiliar territory.",
+            description:"It's supposed to be just a static pubmat. Well, why not explore unfamiliar territory?",
             processImages:[],
             lessons:"Learned the very basics of key framing, and organizing shit.",
             links:[
@@ -413,7 +413,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 15,
-        type: ["Internship","Motion Graphics"],
+        type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -440,7 +440,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 16,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -467,7 +467,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 17,
-        type: ["Internship","Motion Graphics"],
+        type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -494,7 +494,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 18,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -521,7 +521,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 19,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -548,7 +548,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 20,
-        type: ["Internship","Motion Graphics"],
+        type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -575,7 +575,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 21,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"A collaborative project with FEU Tech's Communication Office.",
         action:{
@@ -585,7 +585,7 @@ const projects = [
         details:{
             role:"",
             software:["Photoshop"],
-            objective:"",
+            objective:"To highlight achievements and milestones of FEU Alabang, FEU Diliman, and FEU Tech.",
             description:"",
             processImages:["process1.jpg","process2.jpg","process3.jpg","process4.jpg","process5.jpg","process6.jpg","process7.jpg","process8.jpg"],
             lessons:"",
@@ -601,7 +601,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 22,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -628,7 +628,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 23,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -655,7 +655,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 24,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -682,7 +682,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 25,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -709,7 +709,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 26,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -736,7 +736,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 27,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -763,7 +763,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 28,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -790,7 +790,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 29,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -817,7 +817,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 30,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -844,7 +844,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 31,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -871,7 +871,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 32,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -898,7 +898,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 33,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -925,7 +925,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 33,
-        type: ["Internship","Static Pubmat"],
+        type: ["Static Pubmat"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
