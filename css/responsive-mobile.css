@@ -128,7 +128,7 @@
 =========================== */
 
 #gallery{
-    min-height:100svh;
+    height:100svh;
 }
 
 #gallery .container{
@@ -195,15 +195,11 @@
     /* ===========================
        RESUME
     =========================== */
-
     .resume-container{
-        width:92%;
-
+        width:95%;
         grid-template-columns:1fr;
-
         gap:2rem;
-
-        padding:4rem 0;
+        padding: 0;
     }
 
     .resume-container .resume-preview{
@@ -217,27 +213,24 @@
     }
 
     .resume-container .resume-preview .resume-frame iframe{
-        height:450px;
+        height:80vh;
     }
 
     .resume-container .resume-profile{
         position:relative;
-
-        top:auto;
-
+        top:0;
         margin-top:0;
-
         order:1;
     }
 
     .resume-container .resume-profile .profile-image{
-        width:120px;
+        width:100%;
 
-        height:120px;
+        height:100%;
     }
 
     .resume-container .resume-profile h2{
-        font-size:1.6rem;
+        font-size:1.5rem;
     }
 
     .resume-container .resume-profile .resume-message{
@@ -391,3 +384,4 @@ p{
     top:.2rem;
     right:.2rem;
 }
+
