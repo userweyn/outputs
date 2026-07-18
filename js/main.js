@@ -17,39 +17,51 @@ document.addEventListener("DOMContentLoaded", ()=>{
 // VIEW PROJECT
 // ============================================
 function viewProject(id){
-    const project = projects.find(
-        project=>project.id===id
-    );
+
+    setCurrentProject(id);
+
+    const project =
+        getCurrentGalleryProject();
+
     if(!project) return;
+
     switch(project.action.type){
-        case "video":
-            openViewer(`
-                <video
-                    controls
-                    autoplay>
-                    <source
-                        src="assets/projects/${project.folder}/${project.action.source}"
-                        type="video/mp4">
-                </video>
-            `);
-            break;
+
         case "image":
-            openViewer(`
-                <img
-                    src="assets/projects/${project.folder}/${project.action.source}"
-                    class="viewer-media">
-            `);
+
+            openViewer(
+                "image",
+                `assets/projects/${project.folder}/${project.action.source}`
+            );
+
             break;
+
+        case "video":
+
+            openViewer(
+                "video",
+                `assets/projects/${project.folder}/${project.action.source}`
+            );
+
+            break;
+
         case "external":
+
             window.open(
                 project.action.source,
                 "_blank"
             );
+
             break;
+
         case "case-study":
+
             openDetails(project.id);
+
             break;
+
     }
+
 }
 // ============================================
 // UTILITIES
@@ -67,6 +79,7 @@ window.addEventListener("keydown",e=>{
         viewer.innerHTML = "";
     }
 });
+
 // ============================================
 // END
 // ============================================
