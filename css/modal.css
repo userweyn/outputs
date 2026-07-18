@@ -1,0 +1,260 @@
+/* ===========================
+   MODAL VARIABLES
+=========================== */
+
+:root{
+    --modal-background:rgba(0,0,0,.82);
+
+    --modal-surface:#1B1E23;
+
+    --modal-text:#F5F5F5;
+    --modal-text-light:#B7BDC6;
+
+    --modal-primary:#D97706;
+
+    --modal-border:#2B3038;
+
+    --modal-shadow:
+        0 24px 80px rgba(0,0,0,.45);
+
+    --modal-transition:.3s ease;
+}
+
+/* ===========================
+   PROJECT MODAL
+=========================== */
+
+#projectModal{
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:3rem;
+
+    background:var(--modal-background);
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:var(--modal-transition);
+
+    z-index:1000;
+}
+
+#projectModal.active{
+    opacity:1;
+
+    visibility:visible;
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+#projectModal .modal-content{
+    position:relative;
+
+    width:min(900px,100%);
+    max-height:90vh;
+
+    overflow-y:auto;
+
+    padding:3rem;
+
+    border:1px solid var(--modal-border);
+    border-radius:20px;
+
+    background:var(--modal-surface);
+
+    box-shadow:var(--modal-shadow);
+}
+
+/* ===========================
+   CLOSE BUTTON
+=========================== */
+
+#projectModal .modal-content .closeModal{
+    position:absolute;
+
+    top:1.25rem;
+    right:1.25rem;
+
+    width:46px;
+    height:46px;
+
+    border:none;
+    border-radius:50%;
+
+    background:transparent;
+
+    color:var(--modal-text);
+
+    font-size:2rem;
+    line-height:1;
+
+    cursor:pointer;
+
+    transition:var(--modal-transition);
+}
+
+#projectModal .modal-content .closeModal:hover{
+    color:var(--modal-primary);
+
+    transform:rotate(90deg);
+}
+/* ===========================
+   MODAL BODY
+=========================== */
+
+#projectModal
+.modal-content
+#modalBody{
+    color:var(--modal-text);
+}
+
+#projectModal
+.modal-content
+#modalBody
+h2{
+    margin-bottom:1rem;
+
+    font-size:2.2rem;
+}
+
+#projectModal
+.modal-content
+#modalBody
+h3{
+    margin:
+        2rem 0
+        .75rem;
+
+    color:var(--modal-primary);
+
+    font-size:1.2rem;
+}
+
+#projectModal
+.modal-content
+#modalBody
+p{
+    color:var(--modal-text-light);
+
+    line-height:1.8;
+}
+
+#projectModal
+.modal-content
+#modalBody
+ul{
+    margin-left:1.5rem;
+}
+
+#projectModal
+.modal-content
+#modalBody
+li{
+    margin-bottom:.5rem;
+
+    color:var(--modal-text-light);
+}
+
+/* ===========================
+   PROCESS GALLERY
+=========================== */
+
+#projectModal
+.modal-content
+#modalBody
+.process-gallery{
+    display:flex;
+
+    gap:1rem;
+
+    overflow-x:auto;
+    overflow-y:hidden;
+
+    margin-top:1rem;
+    padding-bottom:.5rem;
+
+    scrollbar-width:none;
+    -ms-overflow-style:none;
+}
+
+#projectModal
+.modal-content
+#modalBody
+.process-gallery::-webkit-scrollbar{
+    display:none;
+}
+
+#projectModal
+.modal-content
+#modalBody
+.process-gallery
+img{
+    flex:0 0 280px;
+    width: 100px;
+    object-fit: contain;
+    aspect-ratio: 1/1;
+    border-radius:14px;
+
+    cursor:pointer;
+
+    transition:var(--modal-transition);
+}
+
+#projectModal
+.modal-content
+#modalBody
+.process-gallery
+img:hover{
+    transform:scale(1.03);
+}
+/* ===========================
+   PROJECT LINKS
+=========================== */
+
+#projectModal
+.modal-content
+#modalBody
+.project-links{
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:1rem;
+
+    margin-top:1rem;
+}
+
+#projectModal
+.modal-content
+#modalBody
+.project-links
+a{
+    padding:.8rem 1.2rem;
+
+    border:1px solid var(--modal-border);
+    border-radius:999px;
+
+    color:var(--modal-text);
+
+    text-decoration:none;
+
+    transition:var(--modal-transition);
+}
+
+#projectModal
+.modal-content
+#modalBody
+.project-links
+a:hover{
+    border-color:var(--modal-primary);
+
+    color:var(--modal-primary);
+}
+

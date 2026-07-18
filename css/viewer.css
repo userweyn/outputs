@@ -1,0 +1,159 @@
+/* ===========================
+   VIEWER VARIABLES
+=========================== */
+
+:root{
+    --viewer-background:rgba(0,0,0,.92);
+
+    --viewer-surface:#1B1E23;
+
+    --viewer-border:#2B3038;
+
+    --viewer-text:#F5F5F5;
+
+    --viewer-primary:#D97706;
+
+    --viewer-shadow:
+        0 24px 80px rgba(0,0,0,.5);
+
+    --viewer-transition:.3s ease;
+}
+
+/* ===========================
+   VIEWER MODAL
+=========================== */
+
+#viewerModal{
+    position:fixed;
+    inset:0;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:2rem;
+
+    background:var(--viewer-background);
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:var(--viewer-transition);
+
+    z-index:1100;
+}
+
+#viewerModal.active{
+    opacity:1;
+
+    visibility:visible;
+}
+
+/* ===========================
+   CONTENT
+=========================== */
+
+#viewerModal .modal-content{
+    position:relative;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    width:min(1400px,100%);
+    max-width:95vw;
+    max-height:95vh;
+
+    padding:1.5rem;
+
+    border:1px solid var(--viewer-border);
+    border-radius:20px;
+
+    background:var(--viewer-surface);
+
+    box-shadow:var(--viewer-shadow);
+}
+
+/* ===========================
+   CLOSE BUTTON
+=========================== */
+
+#viewerModal .modal-content .closeViewer{
+    position:absolute;
+
+    top:1rem;
+    right:1rem;
+
+    width:48px;
+    height:48px;
+
+    border:none;
+    border-radius:50%;
+
+    background:transparent;
+
+    color:var(--viewer-text);
+
+    font-size:2rem;
+    line-height:1;
+
+    cursor:pointer;
+
+    transition:var(--viewer-transition);
+
+    z-index:5;
+}
+
+#viewerModal .modal-content .closeViewer:hover{
+    color:var(--viewer-primary);
+
+    transform:rotate(90deg);
+}
+
+/* ===========================
+   VIEWER BODY
+=========================== */
+
+#viewerModal
+.modal-content
+#viewerBody{
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+    width:100%;
+    max-width:100%;
+    max-height:calc(95vh - 3rem);
+}
+
+#viewerModal
+.modal-content
+#viewerBody
+img,
+
+#viewerModal
+.modal-content
+#viewerBody
+video,
+
+#viewerModal
+.modal-content
+#viewerBody
+.viewer-media{
+    display:block;
+
+    max-width:100%;
+    max-height:calc(95vh - 3rem);
+
+    border-radius:12px;
+
+    object-fit:contain;
+}
+
+#viewerModal
+.modal-content
+#viewerBody
+video{
+    outline:none;
+}

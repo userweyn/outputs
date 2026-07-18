@@ -1,0 +1,416 @@
+/* ===========================
+   HERO VARIABLES
+=========================== */
+
+:root{
+    --hero-primary:#D97706;
+    --hero-primary-light:#FBBF24;
+
+    --hero-background:#121417;
+    --hero-dark:#0D0F12;
+
+    --hero-white:#FFFFFF;
+    --hero-white-90:rgba(255,255,255,.90);
+    --hero-white-70:rgba(255,255,255,.70);
+
+    --hero-glass:rgba(255,255,255,.06);
+
+    --hero-border-light:rgba(255,255,255,.20);
+    --hero-border-primary:rgba(217,119,6,.25);
+
+    --hero-shadow:
+        0 20px 60px rgba(0,0,0,.35);
+
+    --hero-transition:.3s ease;
+}
+
+/* ===========================
+   HERO
+=========================== */
+
+#home{
+    position:relative;
+
+    display:flex;
+    align-items:center;
+
+    min-height:100vh;
+
+    overflow:hidden;
+
+    background:var(--hero-dark);
+}
+
+/* ===========================
+   HERO BACKGROUND
+=========================== */
+
+#home .hero-background{
+    position:absolute;
+    inset:0;
+
+    z-index:1;
+}
+
+#home .hero-background .hero-media{
+    width:100%;
+    height:100%;
+
+    opacity:1;
+
+    transition:opacity .45s ease;
+}
+
+#home .hero-background .hero-media img,
+#home .hero-background .hero-media video{
+    display:block;
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+    object-position:90% center;
+
+    transition:.8s ease;
+}
+
+
+/* ===========================
+   HERO OVERLAY
+=========================== */
+
+#home .hero-overlay{
+    position:absolute;
+    inset:0;
+
+    z-index:2;
+
+    background:
+        linear-gradient(
+            to right,
+            rgba(13,15,18,.92) 0%,
+            rgba(13,15,18,.75) 18%,
+            rgba(11, 20, 34, 0.35) 38%,
+            rgba(10, 21, 37, 0.05) 50%,
+            rgba(13,15,18,.35) 62%,
+            rgba(6, 15, 27, 0.75) 82%,
+            rgba(3, 14, 31, 0.92) 100%
+        );
+    backdrop-filter: blur(7px);
+}
+
+/* ===========================
+   HERO CONTENT
+=========================== */
+
+#home .hero-container{
+    position:relative;
+
+    z-index:3;
+
+    display:flex;
+    align-items:center;
+
+    width:min(90%,1400px);
+    min-height:100vh;
+
+    margin:0 auto;
+}
+
+#home .hero-container .hero-content{
+    max-width: 750px;
+
+    transition:
+        transform .6s ease,
+        opacity .6s ease;
+
+    animation:heroContentIn .9s cubic-bezier(.22,.61,.36,1);
+}
+
+@keyframes heroContentIn{
+
+    from{
+        opacity:0;
+        transform:translateY(45px);
+    }
+
+    to{
+        opacity:1;
+        transform:none;
+    }
+
+}
+
+#home .hero-container .hero-content .hero-greeting{
+    margin-bottom:10px;
+
+    color:var(--hero-white);
+
+    font-size:2.5rem;
+    font-weight:700;
+}
+
+#home .hero-container .hero-content .hero-greeting span{
+    color:var(--hero-primary);
+}
+
+#home .hero-container .hero-content h1{
+    margin-bottom:15px;
+
+    color:var(--hero-white);
+    font-size:5rem;
+    line-height:.7;
+}
+
+#home .hero-container .hero-content h2{
+    color:var(--hero-white-70);
+
+    font-size:1rem;
+    font-weight:500;
+    letter-spacing:.15em;
+}
+
+#home .hero-container .hero-content h3{
+    margin-bottom:22px;
+
+    color:var(--hero-white-90);
+    font-weight: 700;
+    font-size:2.07rem;
+    line-height:1.55;
+    letter-spacing: .07rem;
+}
+
+#home .hero-container .hero-content .hero-description{
+    max-width:520px;
+
+    margin-bottom:42px;
+
+    color:var(--hero-white-70);
+
+    font-size:1.05rem;
+    line-height:1.9;
+}
+/* ===========================
+   HERO BUTTONS
+=========================== */
+
+#home .hero-container .hero-content .hero-btn{
+    display:flex;
+    flex-wrap:wrap;
+
+    gap:18px;
+}
+
+#home .hero-container .hero-content .hero-btn a{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:16px 34px;
+
+    border-radius:999px;
+
+    font-weight:700;
+
+    letter-spacing:.08em;
+
+    text-decoration:none;
+
+    transition:var(--hero-transition);
+}
+
+#home .hero-container .hero-content .hero-btn .view-btn{
+    background:var(--hero-primary);
+
+    color:var(--hero-white);
+}
+
+#home .hero-container .hero-content .hero-btn .view-btn:hover{
+    background:var(--hero-primary-light);
+
+    transform:scale(1.1);
+}
+
+#home .hero-container .hero-content .hero-btn .details-btn{
+    background:transparent;
+
+    border:2px solid var(--hero-border-light);
+
+    color:var(--hero-white);
+
+    text-decoration:underline;
+}
+
+#home .hero-container .hero-content .hero-btn .details-btn:hover{
+    background:var(--hero-white);
+
+    color:#111111;
+}
+
+/* ===========================
+   HERO PROJECT CARD
+=========================== */
+
+#home .hero-project-card{
+    position:absolute;
+
+    right:6%;
+    bottom:60px;
+
+    z-index:4;
+
+    width:min(460px,38vw);
+
+    padding:28px;
+
+    border:1px solid var(--hero-border-light);
+    border-radius:24px;
+
+    background:var(--hero-glass);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    box-shadow:var(--hero-shadow);
+
+    transition:.8s ease;
+}
+
+#home .hero-project-card .hero-project-type{
+    display:inline-block;
+
+    margin-bottom:18px;
+    padding:6px 14px;
+
+    background:var(--hero-glass);
+
+    border:1px solid var(--hero-border-primary);
+    border-radius:999px;
+
+    color:var(--hero-primary-light);
+
+    font-size:.75rem;
+    font-weight:600;
+
+    letter-spacing:.12em;
+    text-transform:uppercase;
+}
+
+#home .hero-project-card h3{
+    margin-bottom:16px;
+
+    color:var(--hero-white);
+
+    font-size:2rem;
+    line-height:1.2;
+}
+
+#home .hero-project-card p{
+    color:rgba(255,255,255,.55);
+
+    font-size:.98rem;
+    line-height:1.8;
+}
+/* ===========================
+   HERO TRANSITIONS
+=========================== */
+
+#home .hero-background .hero-media img,
+#home .hero-background .hero-media video{
+    opacity:.3;
+
+    transition:.8s ease;
+}
+#home .hero-project-card{
+    opacity: .7;
+}
+
+/* ===========================
+   SKILLS
+=========================== */
+
+#home .hero-skills{
+    width:100%;
+
+    background:var(--hero-dark);
+}
+
+#home .hero-skills .skills-container{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+
+    width:min(90%,1400px);
+
+    margin:0 auto;
+}
+
+#home .hero-skills .skills-container .skill-card{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    gap:18px;
+
+    padding:26px 20px;
+
+    transition:var(--hero-transition);
+}
+
+#home .hero-skills .skills-container .skill-card:hover{
+    background:rgba(255,255,255,.06);
+}
+
+#home .hero-skills .skills-container .skill-card img{
+    width:52px;
+    height:52px;
+
+    object-fit:contain;
+}
+
+/* ===========================
+   SKILLS STRIP
+=========================== */
+
+.hero-skills{
+    padding:.7rem 0;
+    box-shadow: 0 0 30px rgb(15, 0, 43);
+    background:#0a0f1a;
+}
+
+.hero-skills .skills-container{
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    width:min(1200px,90%);
+
+    margin:0 auto;
+}
+
+.hero-skills .skills-container .skill-card{
+    display:flex;
+    align-items:center;
+    gap:1.25rem;
+    padding:1.75rem;
+    transition:.3s ease;
+}
+
+.hero-skills .skills-container .skill-card:hover{
+    transform:translateY(-6px);
+}
+
+.hero-skills .skills-container .skill-card img{
+    width:64px;
+    height:64px;
+    object-fit:contain;
+    flex-shrink:0;
+}
+
+.hero-skills .skills-container .skill-card h3{
+    color:#F5F5F5;
+    font-size:1.1rem;
+    letter-spacing: .07rem;
+    font-weight:700;
+    line-height:1.4;
+}
+

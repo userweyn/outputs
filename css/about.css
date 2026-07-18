@@ -1,0 +1,255 @@
+/* ===========================
+   RESUME VARIABLES
+=========================== */
+
+:root{
+    --resume-background:#0F1115;
+    --resume-surface:#1B1E23;
+    --resume-border:#2B3038;
+    --resume-text:#F5F5F5;
+    --resume-muted:#A1A1AA;
+    --resume-primary:#D97706;
+    --resume-shadow:0 20px 60px rgba(0,0,0,.35);
+    --resume-radius:20px;
+    --resume-transition:.3s ease;
+
+    --about-overlay-navy: linear-gradient(
+        to right,
+        rgba(10, 11, 22, 0.88) 1%,
+        rgba(5, 4, 20, 0.5) 50%,
+        rgba(18, 17, 22, 0.15) 80%,
+        rgba(5, 1, 43, 0.2) 95%
+    );
+}
+
+/* ===========================
+   RESUME SECTION
+=========================== */
+#resume-section{
+        background:var(--about-overlay-navy);
+        padding: 1rem;
+}
+.resume-container{
+    display:grid;
+
+    grid-template-columns:1.3fr .9fr;
+
+    gap:2rem;
+
+    width:min(1400px,92%);
+    margin: auto;
+
+    align-items:start;
+}
+.resume-container .resume-profile{
+    position:sticky;
+
+    top:100px;
+
+    align-self:start;
+
+    transform:translateY(4.5rem);
+}
+.resume-container .resume-profile img{
+    transition: transform 0.4s ease;
+}
+.resume-container .resume-profile img:hover{
+    transform:translateY(-3px);
+}
+/* ===========================
+   LEFT PANEL
+=========================== */
+
+.resume-container .resume-preview{
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1.5rem;
+}
+
+.resume-container .resume-preview .section-title{
+    font-size:2rem;
+
+    color:var(--resume-text);
+}
+
+/* ===========================
+   PDF FRAME
+=========================== */
+
+.resume-container .resume-preview .resume-frame{
+    overflow:hidden;
+
+    border:1px solid var(--resume-border);
+
+    border-radius:var(--resume-radius);
+
+    background:var(--resume-surface);
+
+    box-shadow:var(--resume-shadow);
+}
+
+.resume-container .resume-preview .resume-frame iframe{
+    display:block;
+
+    width:100%;
+
+    height:850px;
+
+    border:none;
+}
+
+/* ===========================
+   RIGHT PANEL
+=========================== */
+
+.resume-container .resume-profile{
+    position:sticky;
+
+    top:100px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+    gap:1.5rem;
+
+    padding:2rem;
+}
+
+.resume-container .resume-profile .profile-image{
+    width:100%;
+
+    animation:floatProfile 6s ease-in-out infinite;
+
+    filter:drop-shadow(0 25px 45px rgba(0,0,0,.35));
+
+    transform-origin:center;
+}
+@keyframes floatProfile{
+
+    0%{
+        transform:translateY(0px) rotate(0deg);
+    }
+
+    25%{
+        transform:translateY(-8px) rotate(-.4deg);
+    }
+
+    50%{
+        transform:translateY(-15px) rotate(0deg);
+    }
+
+    75%{
+        transform:translateY(-8px) rotate(.4deg);
+    }
+
+    100%{
+        transform:translateY(0px) rotate(0deg);
+    }
+
+}
+
+.resume-container .resume-profile h2{
+    color:var(--resume-text);
+
+    font-size:1.8rem;
+
+    line-height:1.2;
+}
+
+.resume-container .resume-profile .resume-message{
+    color:var(--resume-muted);
+
+    line-height:1.7;
+}
+
+/* ===========================
+   SOCIAL LINKS
+=========================== */
+
+.resume-container .resume-profile .social-links{
+    display:flex;
+
+    justify-content:center;
+
+    gap:1rem;
+
+    flex-wrap: nowrap;
+}
+
+.resume-container .resume-profile .social-links a{
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    width:56px;
+
+    height:56px;
+
+    border:1px solid var(--resume-border);
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.03);
+
+    transition:var(--resume-transition);
+}
+
+.resume-container .resume-profile .social-links a:hover{
+    transform:translateY(-5px);
+
+    border-color:var(--resume-primary);
+}
+
+.resume-container .resume-profile .social-links a img{
+    width:26px;
+
+    height:26px;
+
+    object-fit:contain;
+}
+
+/* ===========================
+   PROFILE
+=========================== */
+
+.profile-image{
+
+    transition:
+        transform .5s ease,
+        filter .5s ease;
+}
+
+.profile-image:hover{
+
+    transform:
+        scale(1.03)
+        rotate(-1deg);
+
+    filter:brightness(1.06);
+}
+
+.social-links a{
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.social-links a:hover{
+
+    transform:
+        translateY(-6px)
+        scale(1.05);
+
+    box-shadow:
+        0 15px 35px rgba(0,0,0,.3);
+}

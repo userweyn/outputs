@@ -1,0 +1,347 @@
+@media (max-width:430px){
+
+/* ===========================
+   HERO
+=========================== */
+
+#home .hero-container{
+    width:92%;
+
+    min-height:100svh;
+
+    padding:5rem 0 2rem;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+}
+
+#home .hero-content{
+    width:100%;
+}
+#home .hero-container .hero-content .hero-greeting,span{
+    font-size: 2rem;
+}
+
+#home .hero-container .hero-content h1{
+    font-size:2.5rem;
+}
+
+#home .hero-container .hero-content h2{
+    font-size:1rem;
+}
+
+#home .hero-container .hero-content h3{
+    font-size:1.5rem;
+}
+
+
+#home .hero-description{
+    font-size:.9rem;
+}
+
+#home .hero-btn{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+#home .hero-btn a{
+    width:100%;
+}
+
+#home .hero-project-card{
+    position:relative;
+
+    right:auto;
+
+    bottom:auto;
+
+    width:90%;
+    
+    margin-top:2rem;
+}
+#home .hero-project-card h3{
+    font-size: 1.5rem;
+}
+/* ===========================
+   SKILLS STRIP
+=========================== */
+
+.hero-skills .skills-container{
+    width:92%;
+
+    grid-template-columns:1fr;
+
+    gap:.7rem;
+}
+
+.hero-skills .skills-container .skill-card{
+    flex-direction:column;
+
+    justify-content:center;
+
+    text-align:center;
+
+    padding:1.5rem;
+}
+
+.hero-skills .skills-container .skill-card img{
+    width:56px;
+
+    height:56px;
+}
+
+.hero-skills .skills-container .skill-card h3{
+    font-size:1rem;
+}
+
+/* ===========================
+   FEATURED
+=========================== */
+
+#featured-projects .container{
+    width:92%;
+}
+
+#featured-projects .section-title h2{
+    font-size:1.7rem;
+}
+
+#featured-projects .section-title p{
+    font-size:.82rem;
+}
+
+#featured-projects .featured-slide{
+    flex:0 0 100%;
+}
+
+#featured-projects .featured-card{
+    min-height:auto;
+}
+
+/* ===========================
+   GALLERY
+=========================== */
+
+#gallery{
+    min-height:100svh;
+}
+
+#gallery .container{
+    width:92%;
+
+    display:flex;
+
+    flex-direction:column;
+}
+
+#gallery .section-title{
+    margin-bottom:1.25rem;
+}
+
+#gallery .section-label{
+    font-size:.7rem;
+}
+
+#gallery .section-title h2{
+    font-size:1.3rem;
+
+    line-height:1.05;
+}
+
+#gallery .gallery-count{
+    font-size:.9rem;
+}
+
+#gallery .section-title p{
+    font-size:.82rem;
+}
+
+#gallery .gallery-heading{
+    flex-direction:row;
+
+    align-items:flex-start;
+
+    gap:.4rem;
+
+    margin-bottom:1rem;
+}
+
+#gallery .gallery-filters{
+    gap:.5rem;
+
+    margin-bottom:1rem;
+}
+
+#gallery .gallery-filters button{
+    font-size:.72rem;
+
+    padding:.5rem .8rem;
+}
+
+#gallery .gallery-grid{
+    grid-template-columns:repeat(2,1fr);
+
+    gap:10px;
+}
+    #gallery .gallery-thumb{
+        aspect-ratio:1;
+    }
+
+    /* ===========================
+       RESUME
+    =========================== */
+
+    .resume-container{
+        width:92%;
+
+        grid-template-columns:1fr;
+
+        gap:2rem;
+
+        padding:4rem 0;
+    }
+
+    .resume-container .resume-preview{
+        order:2;
+    }
+
+    .resume-container .resume-preview .section-title{
+        font-size:1.8rem;
+        padding: 2rem 0 0 0;
+        text-align:center;
+    }
+
+    .resume-container .resume-preview .resume-frame iframe{
+        height:450px;
+    }
+
+    .resume-container .resume-profile{
+        position:relative;
+
+        top:auto;
+
+        margin-top:0;
+
+        order:1;
+    }
+
+    .resume-container .resume-profile .profile-image{
+        width:120px;
+
+        height:120px;
+    }
+
+    .resume-container .resume-profile h2{
+        font-size:1.6rem;
+    }
+
+    .resume-container .resume-profile .resume-message{
+        font-size:.9rem;
+    }
+
+    .resume-container .resume-profile .social-links{
+        justify-content:center;
+    }
+
+    /* ===========================
+       PROJECT MODAL
+    =========================== */
+
+    #projectModal{
+        padding:1rem;
+    }
+
+    #projectModal .modal-content{
+        width:100%;
+
+        max-height:95vh;
+
+        padding:2rem 1.25rem;
+    }
+
+    #projectModal
+    .modal-content
+    #modalBody
+    h2{
+        font-size:1.8rem;
+    }
+
+    #projectModal
+    .modal-content
+    #modalBody
+    .process-gallery
+    img{
+        flex:0 0 140px;
+
+        width:140px;
+
+        height:100px;
+
+        object-fit:cover;
+    }
+
+    /* ===========================
+       VIEWER
+    =========================== */
+
+    #viewerModal{
+        padding:1rem;
+    }
+
+    #viewerModal .modal-content{
+        padding:.75rem;
+    }
+
+    #viewerModal .modal-content .closeViewer{
+        width:42px;
+
+        height:42px;
+
+        font-size:1.6rem;
+    }
+
+    #viewerModal
+    .modal-content
+    #viewerBody{
+        max-height:85vh;
+    }
+
+    #viewerModal
+    .modal-content
+    #viewerBody
+    img,
+
+    #viewerModal
+    .modal-content
+    #viewerBody
+    video{
+        max-height:80vh;
+    }
+
+    /* ===========================
+       HEADER
+    =========================== */
+
+    #header .navbar{
+        width:92%;
+    }
+
+    #header .navbar .logo{
+        font-size:1.4rem;
+        margin: auto;
+    }
+
+    #header .navbar ul{
+        display: none;
+    }
+
+
+}
