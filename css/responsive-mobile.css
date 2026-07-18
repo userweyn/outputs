@@ -3,6 +3,7 @@
 /* ===========================
    HERO
 =========================== */
+
 #home .hero-background .hero-media img,
 #home .hero-background .hero-media video{
     display:block;
@@ -10,6 +11,7 @@
     object-fit:cover;
     object-position:center;
     transition:.8s ease;
+    
 }
 #home .hero-container{
     width:92%;
@@ -63,21 +65,7 @@
 }
 
 #home .hero-project-card{
-    position:relative;
-
-    right:auto;
-
-    bottom:auto;
-
-    width:90%;
-    
-    margin-top:2rem;
-}
-#home .hero-project-card .hero-project-type{
-    font-size: .5rem;
-}
-#home .hero-project-card h3{
-    font-size: 1.3rem;
+    display: none;
 }
 /* ===========================
    SKILLS STRIP
