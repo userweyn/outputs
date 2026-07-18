@@ -1045,6 +1045,32 @@ const projects = [
         priority: 37,
         type: ["Series", "Motion Graphics", "3D"],
         thumbnail: "thumbnail.jpg",
+        shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Click Details to view the full series",
+        action:{
+            type:"video",
+            source:"preview.mp4"
+        },
+        details:{
+            role:"",
+            software:["After Effects", "Photoshop", "Autodesk Maya"],
+            objective:"",
+            description:"",
+            mediaTitle:"Series",
+            media:[],
+            lessons:"",
+            links:[{}
+            ]
+        }
+    },
+    {
+        id: "feu-alabang-courses",
+        folder: "feu-alabang-courses",
+        title: "FEU Alabang Courses Introduction",
+        year: 2026,
+        featured: false,
+        priority: 38,
+        type: ["Series", "Motion Graphics", "3D"],
+        thumbnail: "thumbnail.jpg",
         shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Clicking view redirects to a google drive.",
         action:{
             type:"external",
