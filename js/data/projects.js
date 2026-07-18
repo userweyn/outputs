@@ -76,7 +76,7 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            mediaTitle:"Rejected Versions",
+            mediaTitle:"Versions",
             media:["01.jpg"],
             lessons:"",
             links:[
