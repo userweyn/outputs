@@ -9,7 +9,7 @@
 //         year: 2026,
 //         featured: trye,
 //         priority: 100,
-//         type: ["Static Pubmat", "Motion Graphics", "3D"],
+//         type: ["Static Pubmats", "Motion Graphics", "3D"],
 //         thumbnail: "thumbnail.jpg",
 //         shortDescription:"This is a short description.",
 //         action:{
@@ -21,7 +21,8 @@
 //             software:["Photoshop","After Effects","Maya"],
 //             objective:"This is an objective.",
 //             description:"This is a description",
-//             processImages:["process1.jpg","process2.jpg"],
+//             mediaTitle:"Gallery",
+//             media:["img1.jpg","img2.jpg"],
 //             lessons:"This is a lesson.",
 //             links:[{label:"First Link", url:"https://link.com"},{label:"Second Link", url:"https://link.com"}]
 //         }
@@ -35,7 +36,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 1,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -47,7 +48,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg","process2.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg","02.jpg"],
             lessons:"",
             links:[
                 {
@@ -62,7 +64,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 2,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -74,7 +76,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -101,7 +104,8 @@ const projects = [
             software:["Canva","Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -128,7 +132,8 @@ const projects = [
             software:["Canva", "Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -143,7 +148,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 5,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -155,7 +160,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -170,7 +176,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 6,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -182,7 +188,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg","process2.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg","02.jpg"],
             lessons:"",
             links:[
                 {
@@ -197,7 +204,7 @@ const projects = [
         year: 2026,
         featured: false ,
         priority: 7,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -209,7 +216,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -224,7 +232,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 8,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -236,7 +244,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg","process2.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg","02.jpg"],
             lessons:"",
             links:[
                 {
@@ -251,7 +260,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 9,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -263,7 +272,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -278,7 +288,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 10,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats", "Series"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -290,7 +300,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg", "process2.jpg", "process3.jpg", "process4.jpg", "process5.jpg", "process6.jpg","process7.jpg"],
+            mediaTitle:"Series",
+            media:["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg","07.jpg"],
             lessons:"",
             links:[
                 {
@@ -305,7 +316,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 11,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -317,7 +328,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -332,7 +344,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 12,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -344,7 +356,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -359,7 +372,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 13,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -371,7 +384,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -388,18 +402,19 @@ const projects = [
         priority: 14,
         type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"I am introduced to After Effects with this Project.",
+        shortDescription:"This project introduced me to After Effects, kinda cool.",
         action:{
             type:"video",
             source:"preview.mp4"
         },
         details:{
             role:"",
-            software:["After Effects","Photoshop"],
+            software:["Photoshop", "After Effects"],
             objective:"Make Shit Move",
-            description:"It's supposed to be just a static pubmat. Well, why not explore unfamiliar territory?",
-            processImages:[],
-            lessons:"Learned the very basics of key framing, and organizing shit.",
+            description:"It's supposed to be just a static pubmat. But why not explore unfamiliar territory?",
+            mediaTitle:"",
+            media:[],
+            lessons:"Learned the very basics of key framing, and organizing mess.",
             links:[
                 {
                 }
@@ -411,7 +426,7 @@ const projects = [
         folder: "feu-laborday",
         title: "FEU Labor Day",
         year: 2026,
-        featured: true,
+        featured: false,
         priority: 15,
         type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
@@ -425,7 +440,8 @@ const projects = [
             software:["Photoshop","After Effects"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -440,7 +456,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 16,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -452,7 +468,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -476,10 +493,11 @@ const projects = [
         },
         details:{
             role:"",
-            software:["Photoshop"],
+            software:["Photoshop", "After Effects"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -494,7 +512,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 18,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -506,7 +524,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -521,7 +540,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 19,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -533,7 +552,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -546,7 +566,7 @@ const projects = [
         folder: "feu-independenceday",
         title: "FEU Independence Day",
         year: 2026,
-        featured: true,
+        featured: false,
         priority: 20,
         type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
@@ -560,7 +580,8 @@ const projects = [
             software:["Photoshop","After Effects"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -575,9 +596,9 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 21,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"A collaborative project with FEU Tech's Communication Office. Click the details button to view the pages I made.",
+        shortDescription:"A collaborative project with FEU Tech's Communication Office. Click details to view the spreads I made.",
         action:{
             type:"image",
             source:"cover.jpg"
@@ -587,7 +608,8 @@ const projects = [
             software:["Photoshop"],
             objective:"To highlight achievements and milestones of FEU Alabang, FEU Diliman, and FEU Tech.",
             description:"",
-            processImages:["process1.jpg","process2.jpg","process3.jpg","process4.jpg","process5.jpg","process6.jpg","process7.jpg","process8.jpg"],
+            mediaTitle:"Spreads",
+            media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg","08.jpg"],
             lessons:"",
             links:[
                 {label:"Heyzine Link", url:"https://heyzine.com/flip-book/574ef6415d.html"}
@@ -601,7 +623,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 22,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -613,7 +635,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg","process2.jpg","process3.jpg","process4.jpg","process5.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg"],
             lessons:"",
             links:[
                 {
@@ -628,7 +651,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 23,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -640,7 +663,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -655,7 +679,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 24,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -667,7 +691,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[""],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -682,7 +707,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 25,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -694,7 +719,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -709,7 +735,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 26,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -721,7 +747,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -736,7 +763,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 27,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -748,7 +775,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -763,7 +791,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 28,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -775,7 +803,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -790,7 +819,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 29,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -802,7 +831,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -811,13 +841,13 @@ const projects = [
         }
     },
     {
-        id: "feu-alabang-noplastic",
-        folder: "feu-alabang-noplastic",
-        title: "FEU Alabang No Plastic Wednesday",
+        id: "feu-diliman-covid",
+        folder: "feu-diliman-covid",
+        title: "FEU Diliman Covid Prevention Tips",
         year: 2026,
         featured: false,
         priority: 30,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -829,7 +859,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -844,7 +875,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 31,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -856,7 +887,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
@@ -871,7 +903,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 32,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -883,7 +915,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:[""],
+            mediaTitle:"",
+            media:[],
             lessons:"",
             links:[
                 {
@@ -898,7 +931,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 33,
-        type: ["Static Pubmat"],
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -910,7 +943,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg","process2.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg", "02.jpg"],
             lessons:"",
             links:[
                 {
@@ -924,8 +958,8 @@ const projects = [
         title: "FEU Diliman Opening",
         year: 2026,
         featured: false,
-        priority: 33,
-        type: ["Static Pubmat"],
+        priority: 34,
+        type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -937,14 +971,96 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            processImages:["process1.jpg"],
+            mediaTitle:"Rejected Versions",
+            media:["01.jpg"],
             lessons:"",
             links:[
                 {
                 }
             ]
         }
+    },
+    {
+        id: "feu-christmas-countdown",
+        folder: "feu-christmas-countdown",
+        title: "FEU Christmas Countdown",
+        year: 2026,
+        featured: false,
+        priority: 35,
+        type: ["Motion Graphics", "Series"],
+        thumbnail: "thumbnail.jpg",
+        shortDescription:"",
+        action:{
+            type:"image",
+            source:"cover.jpg"
+        },
+        details:{
+            role:"",
+            software:["Photoshop", "After Effects"],
+            objective:"",
+            description:"",
+            mediaTitle:"Series",
+            media:["01.mp4","02.mp4","03.mp4","04.mp4"],
+            lessons:"",
+            links:[
+                {
+                }
+            ]
+        }
+    },
+    {
+        id: "feu-diliman-fetcherid",
+        folder: "feu-diliman-fetcherid",
+        title: "FEU Diliman Fetcher's ID",
+        year: 2026,
+        featured: false,
+        priority: 36,
+        type: ["Static Pubmats"],
+        thumbnail: "thumbnail.jpg",
+        shortDescription:"",
+        action:{
+            type:"image",
+            source:"cover.jpg"
+        },
+        details:{
+            role:"",
+            software:["Photoshop"],
+            objective:"",
+            description:"",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg","03.jpg", "04.jpg"],
+            lessons:"",
+            links:[
+                {
+                }
+            ]
+        }
+    },
+    {
+        id: "feu-alabang-enrollment",
+        folder: "feu-alabang-enrollment",
+        title: "FEU Alabang Enrollment Series",
+        year: 2026,
+        featured: true,
+        priority: 37,
+        type: ["Series", "Motion Graphics", "3D"],
+        thumbnail: "thumbnail.jpg",
+        shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Clicking view redirects to a google drive.",
+        action:{
+            type:"external",
+            source:"https://drive.google.com/drive/folders/1qUWzuJrvbaDu44IBVDhyecqEp6CJqKLF?usp=drive_link"
+        },
+        details:{
+            role:"",
+            software:["After Effects", "Photoshop", "Autodesk Maya"],
+            objective:"",
+            description:"The videos exceed GitHub's 25 MB upload limit. Click the button below to open the Google Drive folder and watch the videos.",
+            mediaTitle:"Series",
+            media:[],
+            lessons:"",
+            links:[{label:"Google Drive", url:"https://drive.google.com/drive/folders/1qUWzuJrvbaDu44IBVDhyecqEp6CJqKLF?usp=drive_link"}
+            ]
+        }
     }
-    
     
 ];
