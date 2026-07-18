@@ -1045,7 +1045,7 @@ const projects = [
         priority: 37,
         type: ["Series", "Motion Graphics", "3D"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Click Details to view the full series",
+        shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Click Details to view the series",
         action:{
             type:"video",
             source:"preview.mp4"
@@ -1056,7 +1056,7 @@ const projects = [
             objective:"",
             description:"",
             mediaTitle:"Series",
-            media:[],
+            media:["01.mp4","02.mp4","03.mp4"],
             lessons:"",
             links:[{}
             ]
