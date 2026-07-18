@@ -327,17 +327,23 @@
        HEADER
     =========================== */
 
+    #header{
+        text-align: center;
+    }
     #header .navbar{
         width:92%;
+        display: block;
     }
 
     #header .navbar .logo{
         font-size:1.4rem;
-        margin: auto;
+        margin: 1rem auto;
     }
 
     #header .navbar ul{
-        display: none;
+        display: flex;
+        justify-content: center;
+        font-size: .9rem;
     }
 
 
