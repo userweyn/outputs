@@ -195,7 +195,7 @@ li{
 .modal-content
 #modalBody
 .process-gallery
-img{
+img, video{
     flex:0 0 280px;
     width: 100px;
     object-fit: contain;
