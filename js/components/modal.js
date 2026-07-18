@@ -255,7 +255,13 @@ function initProjectModal(){
 
     document.addEventListener("keydown",e=>{
 
-        if(!modal.classList.contains("active")){
+        const viewer =
+            document.getElementById("viewerModal");
+
+        if(
+            !modal.classList.contains("active") ||
+            (viewer && viewer.classList.contains("active"))
+        ){
             return;
         }
 
@@ -282,47 +288,9 @@ function initProjectModal(){
         }
 
     });
-        modal.addEventListener(
-        "touchstart",
-        e=>{
 
-            touchStartX =
-                e.changedTouches[0].screenX;
-
-        },
-        {
-            passive:true
-        }
-    );
-
-    modal.addEventListener(
-        "touchend",
-        e=>{
-
-            touchEndX =
-                e.changedTouches[0].screenX;
-
-            const delta =
-                touchEndX - touchStartX;
-
-            if(Math.abs(delta) < 50){
-                return;
-            }
-
-            if(delta > 0){
-
-                showPreviousProject();
-
-            }else{
-
-                showNextProject();
-
-            }
-
-        },
-        {
-            passive:true
-        }
-    );
-
+    // Mobile swipe navigation intentionally removed.
+    // The details modal contains horizontally scrollable galleries,
+    // so swipe gestures should scroll the content instead of
+    // changing projects.
 }
