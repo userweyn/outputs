@@ -85,6 +85,61 @@ function openDetailsViewer(type,source,index){
     );
 
 }
+function showPreviousViewerMedia(){
+
+    const media =
+        currentViewerProject?.details?.media;
+
+    if(!media || media.length === 0){
+        return;
+    }
+
+    if(currentViewerMedia <= 0){
+        return;
+    }
+
+    currentViewerMedia--;
+
+    const file =
+        media[currentViewerMedia];
+
+    const type =
+        getMediaType(file);
+
+    renderViewer(
+        type,
+        `assets/projects/${currentViewerProject.folder}/${file}`
+    );
+
+}
+
+function showNextViewerMedia(){
+
+    const media =
+        currentViewerProject?.details?.media;
+
+    if(!media || media.length === 0){
+        return;
+    }
+
+    if(currentViewerMedia >= media.length - 1){
+        return;
+    }
+
+    currentViewerMedia++;
+
+    const file =
+        media[currentViewerMedia];
+
+    const type =
+        getMediaType(file);
+
+    renderViewer(
+        type,
+        `assets/projects/${currentViewerProject.folder}/${file}`
+    );
+
+}
 function showPreviousViewerProject(){
 
     if(currentProjectIndex <= 0){
@@ -98,49 +153,7 @@ function showPreviousViewerProject(){
             currentProjectIndex
         ];
 
-    renderViewer(
-        currentViewerProject.action.type,
-        `assets/projects/${currentViewerProject.folder}/${currentViewerProject.action.source}`
-    );
-
-}
-
-function showNextViewerProject(){
-
-    if(
-        currentProjectIndex >=
-        currentGalleryProjects.length - 1
-    ){
-        return;
-    }
-
-    currentProjectIndex++;
-
-    currentViewerProject =
-        currentGalleryProjects[
-            currentProjectIndex
-        ];
-
-    renderViewer(
-        currentViewerProject.action.type,
-        `assets/projects/${currentViewerProject.folder}/${currentViewerProject.action.source}`
-    );
-
-}
-function showPreviousViewerProject(){
-
-    if(currentProjectIndex <= 0){
-        return;
-    }
-
-    currentProjectIndex--;
-
-    currentViewerProject =
-        currentGalleryProjects[
-            currentProjectIndex
-        ];
-
-    if(currentViewerProject.action.type==="external"){
+    if(currentViewerProject.action.type === "external"){
 
         window.open(
             currentViewerProject.action.source,
@@ -157,7 +170,6 @@ function showPreviousViewerProject(){
     );
 
 }
-
 function showNextViewerProject(){
 
     if(
@@ -174,7 +186,7 @@ function showNextViewerProject(){
             currentProjectIndex
         ];
 
-    if(currentViewerProject.action.type==="external"){
+    if(currentViewerProject.action.type === "external"){
 
         window.open(
             currentViewerProject.action.source,
