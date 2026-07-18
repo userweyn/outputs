@@ -1,15 +1,21 @@
-@media (max-width:430px){
+@media (max-width:520px){
 
 /* ===========================
    HERO
 =========================== */
-
+#home .hero-background .hero-media img,
+#home .hero-background .hero-media video{
+    display:block;
+    top: 0;
+    object-fit:cover;
+    object-position:center;
+    transition:.8s ease;
+}
 #home .hero-container{
     width:92%;
 
-    min-height:100svh;
+    max-height:100%;
 
-    padding:5rem 0 2rem;
 
     display:flex;
 
@@ -38,7 +44,7 @@
 }
 
 #home .hero-container .hero-content h3{
-    font-size:1.5rem;
+    font-size:1.2rem;
 }
 
 
@@ -67,8 +73,11 @@
     
     margin-top:2rem;
 }
+#home .hero-project-card .hero-project-type{
+    font-size: .5rem;
+}
 #home .hero-project-card h3{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 /* ===========================
    SKILLS STRIP
@@ -89,17 +98,17 @@
 
     text-align:center;
 
-    padding:1.5rem;
+    padding:.5rem;
 }
 
 .hero-skills .skills-container .skill-card img{
-    width:56px;
+    width:30px;
 
-    height:56px;
+    height:30px;
 }
 
 .hero-skills .skills-container .skill-card h3{
-    font-size:1rem;
+    font-size:.8rem;
 }
 
 /* ===========================
@@ -344,4 +353,47 @@
     }
 
 
+}
+
+
+
+#projectModal
+.modal-content
+#modalBody
+h2{
+    margin-bottom:1rem;
+
+    font-size:1.3rem;
+}
+
+#projectModal
+.modal-content
+#modalBody
+h3{
+    margin:
+        2rem 0
+        .75rem;
+
+    color:var(--modal-primary);
+
+    font-size:1rem;
+}
+
+#projectModal
+.modal-content
+#modalBody
+p{
+    color:var(--modal-text-light);
+
+    line-height:1.8;
+}
+
+/* ===========================
+   CLOSE BUTTON
+=========================== */
+
+#projectModal .modal-content .closeModal{
+
+    top:.2rem;
+    right:.2rem;
 }
