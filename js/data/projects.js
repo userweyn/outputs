@@ -216,8 +216,8 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            mediaTitle:"",
-            media:[],
+            mediaTitle:"Iterations",
+            media:["01.jpg","02.jpg"],
             lessons:"",
             links:[
                 {
@@ -244,7 +244,7 @@ const projects = [
             software:["Photoshop"],
             objective:"",
             description:"",
-            mediaTitle:"Rejected Versions",
+            mediaTitle:"Iterations",
             media:["01.jpg","02.jpg"],
             lessons:"",
             links:[
