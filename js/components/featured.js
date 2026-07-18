@@ -68,7 +68,7 @@ function loadFeaturedProjects(){
     featuredProjects.forEach((project,index)=>{
         const card = createProjectCard(project);
 
-        card.style.animationDelay = `${index * 0.08}s`;
+        card.style.transitionDelay = `${index * 70}ms`;
 
         card.addEventListener("click",()=>{
             currentSlide = index;
