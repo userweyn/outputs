@@ -269,7 +269,13 @@
 
     transition:.8s ease;
 }
-
+#home .hero-project-card .hero-project-type{
+    transition:.8s ease;
+}
+#home .hero-project-card:hover, .hero-project-type:hover{
+    
+    transform: translateY(-5px) scale(1.1);
+}
 #home .hero-project-card .hero-project-type{
     display:inline-block;
 
