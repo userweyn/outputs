@@ -9,7 +9,7 @@
 //         year: 2026,
 //         featured: trye,
 //         priority: 100,
-//         type: ["Static Pubmats", "Motion Graphics", "3D"],
+//         type: ["Social Media", "Motion Graphics", "3D"],
 //         thumbnail: "thumbnail.jpg",
 //         shortDescription:"This is a short description.",
 //         action:{
@@ -36,7 +36,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 1,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -64,7 +64,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 2,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -92,7 +92,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority:3,
-        type: ["Motion Graphics"],
+        type: ["Social Media","Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -120,7 +120,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 4,
-        type: ["Motion Graphics"],
+        type: ["Social Media","Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -148,7 +148,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 5,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -176,7 +176,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 6,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -204,7 +204,7 @@ const projects = [
         year: 2026,
         featured: false ,
         priority: 7,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -232,7 +232,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 8,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -260,7 +260,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 9,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
         action:{
@@ -288,7 +288,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 10,
-        type: ["Static Pubmats", "Series"],
+        type: ["Social Media", "Series"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -316,7 +316,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 11,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -344,7 +344,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 12,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -372,7 +372,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 13,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -400,7 +400,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 100,
-        type: ["Motion Graphics"],
+        type: ["Social Media","Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"This project introduced me to After Effects, kinda cool.",
         action:{
@@ -428,7 +428,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 15,
-        type: ["Motion Graphics"],
+        type: ["Social Media","Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -456,7 +456,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 16,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -484,7 +484,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 101,
-        type: ["Motion Graphics"],
+        type: ["Social Media","Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"My attempt at creating an infographic-style character animation.",
         action:{
@@ -512,7 +512,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 18,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -540,7 +540,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 19,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -568,7 +568,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 20,
-        type: ["Motion Graphics"],
+        type: ["Social Media","Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -596,7 +596,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 102,
-        type: ["Static Pubmats"],
+        type: ["Social Media","Print"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"A collaborative project with FEU Tech's Communication Office. Click details to view the spreads I made.",
         action:{
@@ -624,7 +624,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 22,
-        type: ["Static Pubmats"],
+        type: ["Print"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -638,7 +638,7 @@ const projects = [
             description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Versions",
             media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg"],
-            note:"",
+            note:"Type: Tarpaulin",
             links:[
                 {
                 }
@@ -652,7 +652,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 23,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -680,7 +680,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 24,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -708,7 +708,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 25,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -736,7 +736,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 26,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -764,7 +764,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 27,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -792,7 +792,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 28,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -820,7 +820,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 29,
-        type: ["Static Pubmats"],
+        type: ["Print"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -834,7 +834,7 @@ const projects = [
             description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Versions",
             media:["01.jpg","02.jpg"],
-            note:"",
+            note:"Type: Tarpaulin",
             links:[
                 {
                 }
@@ -848,7 +848,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 30,
-        type: ["Static Pubmats"],
+        type: ["Social Media","Print"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -876,7 +876,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 31,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -904,7 +904,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 32,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -932,7 +932,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 33,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -960,7 +960,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 34,
-        type: ["Static Pubmats"],
+        type: ["Social Media"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -988,7 +988,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 35,
-        type: ["Motion Graphics", "Series"],
+        type: ["Social Media","Motion Graphics", "Series"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -1016,7 +1016,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 36,
-        type: ["Static Pubmats"],
+        type: ["Print"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"",
         action:{
@@ -1030,7 +1030,7 @@ const projects = [
             description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Versions",
             media:["01.jpg","02.jpg","03.jpg", "04.jpg"],
-            note:"",
+            note:"Type: School ID",
             links:[
                 {
                 }
@@ -1070,7 +1070,7 @@ const projects = [
         year: 2026,
         featured: false,
         priority: 38,
-        type: ["Series", "Motion Graphics", "3D"],
+        type: ["Motion Graphics", "3D","Series"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Clicking view redirects to a google drive.",
         action:{
@@ -1097,7 +1097,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 100,
-        type: ["Motion Graphics", "Series"],
+        type: ["Social Media","Motion Graphics","Series"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"A proposed christmas filler content post for FEU Alabang, FEU Diliman, and FEU Tech. Clicking view redirects to a google drive.",
         action:{
@@ -1146,6 +1146,33 @@ const projects = [
                 {label:"AI Champions: Training the Trainers Session Day 1", url:"https://www.facebook.com/share/p/1EZonri5t9/"},
                 {label:"Greenengineering: A Women's Month Gardening Workshop", url:"https://www.facebook.com/share/p/1EN7CEPgQN/"},
                 {label:"Into the Code F++ Unbound", url:"https://www.facebook.com/share/p/1999Cjamvz/"}
+            ]
+        }
+    },
+    {
+        //41
+        id: "cocacola-mango",
+        folder: "cocacola-mango",
+        title: "Coca-Cola Mango Flavor",
+        year: 2026,
+        featured: true,
+        priority: 100,
+        type: ["Product"],
+        thumbnail: "thumbnail.jpg",
+        shortDescription:"A proposed christmas filler content post for FEU Alabang, FEU Diliman, and FEU Tech. Clicking view redirects to a google drive.",
+        action:{
+            type:"external",
+            source:"https://drive.google.com/file/d/1F0IaJ6byUNNupKV0BgoiOv6e2ZfEVmOb/view?usp=drive_link"
+        },
+        details:{
+            role:"",
+            software:["After Effects", "Photoshop"],
+            objective:"Create a filler christmas themed content for FEU Alabang, FEU Diliman, and FEU Tech",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Images",
+            media:["01.jpg","02.jpg","03.jpg"],
+            note:"The video exceed GitHub's 25 MB upload limit. Watch the video using the link below.",
+            links:[{label:"Google Drive", url:"https://drive.google.com/file/d/1F0IaJ6byUNNupKV0BgoiOv6e2ZfEVmOb/view?usp=drive_link"}
             ]
         }
     }
