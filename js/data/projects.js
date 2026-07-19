@@ -1157,22 +1157,22 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 100,
-        type: ["Product"],
+        type: ["Product","Series"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"A proposed christmas filler content post for FEU Alabang, FEU Diliman, and FEU Tech. Clicking view redirects to a google drive.",
+        shortDescription:"An exploration of a Coca-Cola mango flavor concept.",
         action:{
-            type:"external",
-            source:"https://drive.google.com/file/d/1F0IaJ6byUNNupKV0BgoiOv6e2ZfEVmOb/view?usp=drive_link"
+            type:"image",
+            source:"cover.jpg"
         },
         details:{
             role:"",
             software:["After Effects", "Photoshop"],
             objective:"Create a filler christmas themed content for FEU Alabang, FEU Diliman, and FEU Tech",
-            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            description:"",
             mediaTitle:"Images",
-            media:["01.jpg","02.jpg","03.jpg"],
-            note:"The video exceed GitHub's 25 MB upload limit. Watch the video using the link below.",
-            links:[{label:"Google Drive", url:"https://drive.google.com/file/d/1F0IaJ6byUNNupKV0BgoiOv6e2ZfEVmOb/view?usp=drive_link"}
+            media:["01.jpg","02.jpg"],
+            note:"",
+            links:[
             ]
         }
     }
