@@ -23,7 +23,7 @@
 //             description:"This is a description",
 //             mediaTitle:"Gallery",
 //             media:["img1.jpg","img2.jpg"],
-//             lessons:"This is a lesson.",
+//             note:"This is a lesson.",
 //             links:[{label:"First Link", url:"https://link.com"},{label:"Second Link", url:"https://link.com"}]
 //         }
 //     }
@@ -47,10 +47,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg","02.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg","03.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -75,10 +75,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Versions",
-            media:["01.jpg"],
-            lessons:"",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -101,12 +101,12 @@ const projects = [
         },
         details:{
             role:"",
-            software:["Canva","Photoshop"],
+            software:["Photoshop","Canva"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -129,12 +129,12 @@ const projects = [
         },
         details:{
             role:"",
-            software:["Canva", "Photoshop"],
+            software:["Photoshop","Canva"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -159,10 +159,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -187,10 +187,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg","02.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg","03.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -214,11 +214,11 @@ const projects = [
         details:{
             role:"",
             software:["Photoshop"],
-            objective:"",
+            objective:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             description:"",
-            mediaTitle:"Iterations",
-            media:["01.jpg","02.jpg"],
-            lessons:"",
+            mediaTitle:"Iteration/s",
+            media:["01.jpg","02.jpg","03.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -243,10 +243,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Iterations",
-            media:["01.jpg","02.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Iteration/s",
+            media:["01.jpg","02.jpg","03.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -262,7 +262,7 @@ const projects = [
         priority: 9,
         type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"",
+        shortDescription:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
         action:{
             type:"image",
             source:"cover.jpg"
@@ -274,7 +274,7 @@ const projects = [
             description:"",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -299,10 +299,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Series",
             media:["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg","07.jpg"],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -327,10 +327,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -355,10 +355,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -383,10 +383,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -399,7 +399,7 @@ const projects = [
         title: "FEU Tech Manila Day",
         year: 2026,
         featured: true,
-        priority: 14,
+        priority: 100,
         type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"This project introduced me to After Effects, kinda cool.",
@@ -410,11 +410,11 @@ const projects = [
         details:{
             role:"",
             software:["Photoshop", "After Effects"],
-            objective:"Make Shit Move",
-            description:"It's supposed to be just a static pubmat. But why not explore unfamiliar territory?",
+            objective:"It's supposed to be just a static pubmat. But why not explore unfamiliar territory?",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"Learned the very basics of key framing, and organizing mess.",
+            note:"",
             links:[
                 {
                 }
@@ -439,10 +439,10 @@ const projects = [
             role:"",
             software:["Photoshop","After Effects"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -467,10 +467,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -483,10 +483,10 @@ const projects = [
         title: "FEU Rizal Day",
         year: 2026,
         featured: true,
-        priority: 17,
+        priority: 101,
         type: ["Motion Graphics"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"",
+        shortDescription:"My attempt at creating an infographic-style character animation.",
         action:{
             type:"video",
             source:"preview.mp4"
@@ -495,10 +495,10 @@ const projects = [
             role:"",
             software:["Photoshop", "After Effects"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -523,10 +523,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Iteration/s",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -551,10 +551,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -579,10 +579,10 @@ const projects = [
             role:"",
             software:["Photoshop","After Effects"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -595,7 +595,7 @@ const projects = [
         title: "FEU Magazine Volume 5-7",
         year: 2026,
         featured: true,
-        priority: 21,
+        priority: 102,
         type: ["Static Pubmats"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"A collaborative project with FEU Tech's Communication Office. Click details to view the spreads I made.",
@@ -607,12 +607,13 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"To highlight achievements and milestones of FEU Alabang, FEU Diliman, and FEU Tech.",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Spreads",
-            media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg","08.jpg"],
-            lessons:"",
+            media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg","07.jpg","08.jpg","09.jpg"],
+            note:"",
             links:[
-                {label:"Heyzine Link", url:"https://heyzine.com/flip-book/574ef6415d.html"}
+                {label:"Heyzine Link", url:"https://heyzine.com/flip-book/574ef6415d.html"},
+                {label: "FEU Tech's FB Post", url:"https://www.facebook.com/photo?fbid=1278197641137074&set=a.491944886429024"}
             ]
         }
     },
@@ -634,10 +635,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg","03.jpg","04.jpg","05.jpg","06.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -662,10 +663,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -690,10 +691,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -718,10 +719,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -746,10 +747,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -774,10 +775,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -802,10 +803,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -830,10 +831,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -858,10 +859,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -886,10 +887,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -914,10 +915,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"",
             media:[],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -942,10 +943,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg", "02.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg", "02.jpg","03.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -970,10 +971,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
-            mediaTitle:"Rejected Versions",
-            media:["01.jpg"],
-            lessons:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Versions",
+            media:["01.jpg","02.jpg"],
+            note:"",
             links:[
                 {
                 }
@@ -998,10 +999,10 @@ const projects = [
             role:"",
             software:["Photoshop", "After Effects"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Series",
             media:["01.mp4","02.mp4","03.mp4","04.mp4"],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -1026,10 +1027,10 @@ const projects = [
             role:"",
             software:["Photoshop"],
             objective:"",
-            description:"",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
             mediaTitle:"Versions",
             media:["01.jpg","02.jpg","03.jpg", "04.jpg"],
-            lessons:"",
+            note:"",
             links:[
                 {
                 }
@@ -1042,7 +1043,7 @@ const projects = [
         title: "FEU Alabang Enrollment Series",
         year: 2026,
         featured: true,
-        priority: 37,
+        priority: 103,
         type: ["Series", "Motion Graphics", "3D"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Click Details to view the series",
@@ -1054,10 +1055,10 @@ const projects = [
             role:"",
             software:["After Effects", "Photoshop", "Autodesk Maya"],
             objective:"",
-            description:"",
+            description:"This project was created solely for portfolio purposes and was not commissioned, published, or affiliated with FEU Alabang.",
             mediaTitle:"Series",
             media:["01.mp4","02.mp4","03.mp4"],
-            lessons:"",
+            note:"",
             links:[{}
             ]
         }
@@ -1074,17 +1075,77 @@ const projects = [
         shortDescription:"A personal project made to explore 3D modeling, rigging and animating. Clicking view redirects to a google drive.",
         action:{
             type:"external",
-            source:"https://drive.google.com/drive/folders/1qUWzuJrvbaDu44IBVDhyecqEp6CJqKLF?usp=drive_link"
+            source:"https://drive.google.com/file/d/1_J1Zo8C0LhpV5-bAwhgFZzxbzGOox1Hg/view?usp=drive_link"
         },
         details:{
             role:"",
             software:["After Effects", "Photoshop", "Autodesk Maya"],
-            objective:"",
-            description:"The videos exceed GitHub's 25 MB upload limit. Click the button below to open the Google Drive folder and watch the videos.",
-            mediaTitle:"Series",
+            objective:"A personal project made to explore 3D modeling, rigging and animating.",
+            description:"This project was created solely for portfolio purposes and was not commissioned, published, or affiliated with FEU Alabang.",
+            mediaTitle:"",
             media:[],
-            lessons:"",
-            links:[{label:"Google Drive", url:"https://drive.google.com/drive/folders/1qUWzuJrvbaDu44IBVDhyecqEp6CJqKLF?usp=drive_link"}
+            note:"The video exceed GitHub's 25 MB upload limit. Watch the video using the link below.",
+            links:[{label:"Google Drive", url:"https://drive.google.com/file/d/1_J1Zo8C0LhpV5-bAwhgFZzxbzGOox1Hg/view?usp=drive_link"}
+            ]
+        }
+    },
+    {
+        //39
+        id: "feu-christmas-guess",
+        folder: "feu-christmas-guess",
+        title: "FEU Christmas Guessing Content",
+        year: 2026,
+        featured: true,
+        priority: 100,
+        type: ["Motion Graphics", "Series"],
+        thumbnail: "thumbnail.jpg",
+        shortDescription:"A proposed christmas filler content post for FEU Alabang, FEU Diliman, and FEU Tech. Clicking view redirects to a google drive.",
+        action:{
+            type:"external",
+            source:"https://drive.google.com/file/d/1F0IaJ6byUNNupKV0BgoiOv6e2ZfEVmOb/view?usp=drive_link"
+        },
+        details:{
+            role:"",
+            software:["After Effects", "Photoshop"],
+            objective:"Create a filler christmas themed content for FEU Alabang, FEU Diliman, and FEU Tech",
+            description:"This project was created during my internship at FEU Institute of Technology and is presented solely for portfolio purposes.",
+            mediaTitle:"Images",
+            media:["01.jpg","02.jpg","03.jpg"],
+            note:"The video exceed GitHub's 25 MB upload limit. Watch the video using the link below.",
+            links:[{label:"Google Drive", url:"https://drive.google.com/file/d/1F0IaJ6byUNNupKV0BgoiOv6e2ZfEVmOb/view?usp=drive_link"}
+            ]
+        }
+    },
+    {
+        //40
+        id: "feu-tech-photocoverage",
+        folder: "feu-tech-photocoverage",
+        title: "FEU Tech Event Photo Coverage",
+        year: 2026,
+        featured: true,
+        priority: 102,
+        type: ["Photography"],
+        thumbnail: "thumbnail.jpg",
+        shortDescription:"Well, I am forced to do photography. It's like it tho. Click Details to view the official posts featuring these photographs.",
+        action:{
+            type:"image",
+            source:"cover.jpg"
+        },
+        details:{
+            role:"",
+            software:["Photoshop","Lightroom"],
+            objective:"Capture and document campus events through photographs for FEU Tech's Happening Now FB Post.",
+            description:"These events were covered during my internship at FEU Institute of Technology and are presented solely for portfolio purposes. Some posts feature a combination of photographs taken by my fellow intern and me.",
+            mediaTitle:"",
+            media:[],
+            note:"Each link below leads to an FEU Tech Facebook post.",
+            links:[
+                {label:"In Pursuit of Progress: A Multimedia Arts Seminar", url:"https://www.facebook.com/share/p/1Bq48Z2UPy/"},
+                {label:"Enrollment and Scholarship Consultation", url:"https://www.facebook.com/share/p/184LfyPuk3/"},
+                {label:"AI Champions: Training the Trainers Session Day 2", url:"https://www.facebook.com/share/p/1BYF6QLKzG/"},
+                {label:"AI Champions: Training the Trainers Session Day 1", url:"https://www.facebook.com/share/p/1EZonri5t9/"},
+                {label:"Greenengineering: A Women's Month Gardening Workshop", url:"https://www.facebook.com/share/p/1EN7CEPgQN/"},
+                {label:"Into the Code F++ Unbound", url:"https://www.facebook.com/share/p/1999Cjamvz/"}
             ]
         }
     }
