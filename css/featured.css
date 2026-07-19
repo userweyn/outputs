@@ -95,6 +95,7 @@
     scrollbar-width:none;
     -ms-overflow-style:none;
     border-radius: 18px;
+    padding: .3rem 0;
 }
 
 #featured-projects .featured-wrapper .featured-strip::-webkit-scrollbar{
@@ -143,8 +144,9 @@
 .featured-strip
 .featured-slide.active
 .project-card{
-    border-color:var(--featured-border-active);
     filter: brightness(1.1);
+    transform: translateY(-5px);
+    border: solid 1px var(--featured-primary-light);
 }
 
 #featured-projects
