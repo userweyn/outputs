@@ -130,15 +130,15 @@ function renderProjectDetails(project){
         `;
     }
 
-    if(project.details.lessons){
+    if(project.details.note){
 
         html += `
             <h3>
-                Lessons Learned
+                Note
             </h3>
 
             <p>
-                ${project.details.lessons}
+                ${project.details.note}
             </p>
         `;
     }
