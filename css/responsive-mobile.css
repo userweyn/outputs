@@ -10,8 +10,6 @@
     top: 0;
     object-fit:cover;
     object-position:center;
-    transition:.8s ease;
-    
 }
 #home .hero-container{
     width:92%;
@@ -111,8 +109,8 @@
     font-size:1.7rem;
 }
 
-#featured-projects .section-title p{
-    font-size:.82rem;
+#featured-projects .section-title .section-subtext{
+    font-size:.75rem;
 }
 
 #featured-projects .featured-slide{
@@ -158,7 +156,7 @@
 }
 
 #gallery .section-title p{
-    font-size:.82rem;
+    font-size:.75rem;
 }
 
 #gallery .gallery-heading{
