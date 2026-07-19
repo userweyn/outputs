@@ -1126,7 +1126,7 @@ const projects = [
         priority: 102,
         type: ["Photography"],
         thumbnail: "thumbnail.jpg",
-        shortDescription:"Well, I am forced to do photography. It's like it tho. Click Details to view the official posts featuring these photographs.",
+        shortDescription:"Well, I am forced to do photography. I like it tho. Click Details to view the official posts featuring these photographs.",
         action:{
             type:"image",
             source:"cover.jpg"
