@@ -11,7 +11,7 @@
     --modal-text-light:#B7BDC6;
 
     --modal-primary:#D97706;
-
+    --modal-secondary:#FBBF24;
     --modal-border:#2B3038;
 
     --modal-shadow:
@@ -201,7 +201,6 @@ img, video{
     object-fit: contain;
     aspect-ratio: 1/1;
     border-radius:14px;
-
     cursor:pointer;
 
     transition:var(--modal-transition);
@@ -227,7 +226,7 @@ img:hover{
     flex-wrap:wrap;
 
     gap:1rem;
-
+    
     margin-top:1rem;
 }
 
@@ -240,7 +239,7 @@ a{
 
     border:1px solid var(--modal-border);
     border-radius:999px;
-
+    background-color: var(--modal-primary);
     color:var(--modal-text);
 
     text-decoration:none;
@@ -253,8 +252,8 @@ a{
 #modalBody
 .project-links
 a:hover{
-    border-color:var(--modal-primary);
-
-    color:var(--modal-primary);
+    background-color: var(--modal-secondary);
+    color:var(--modal-text);
+    transform: translateY(-5px);
 }
 
