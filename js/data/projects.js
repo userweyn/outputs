@@ -1156,7 +1156,7 @@ const projects = [
         title: "Coca-Cola Mango Flavor",
         year: 2026,
         featured: true,
-        priority: 100,
+        priority: 103,
         type: ["Product","Series"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"An exploration of a Coca-Cola mango flavor concept.",
@@ -1167,7 +1167,7 @@ const projects = [
         details:{
             role:"",
             software:["After Effects", "Photoshop"],
-            objective:"Create a filler christmas themed content for FEU Alabang, FEU Diliman, and FEU Tech",
+            objective:"An attempt to create a campaign for a mango-flavored beverage under the Coca-Cola brand.",
             description:"",
             mediaTitle:"Images",
             media:["01.jpg","02.jpg"],
