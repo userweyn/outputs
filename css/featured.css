@@ -68,7 +68,7 @@
     letter-spacing: .15rem;
 }
 
-#featured-projects .section-title p{
+#featured-projects .section-title .section-subtext{
     color:var(--featured-text-light);
     font-weight: 100;
 }
