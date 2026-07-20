@@ -1157,7 +1157,7 @@ const projects = [
         year: 2026,
         featured: true,
         priority: 103,
-        type: ["Product","Series"],
+        type: ["Product","Series","In Progress"],
         thumbnail: "thumbnail.jpg",
         shortDescription:"An exploration of a Coca-Cola mango flavor concept.",
         action:{
